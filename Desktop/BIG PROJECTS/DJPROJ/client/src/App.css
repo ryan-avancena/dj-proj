@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-page {
+  background-color: #B7C5AF;
+  width: 100vw;
+  margin: 0;
+  padding: 5%;
+}
+
+.card-image {
+  object-fit: cover;
+  width: 10vw;
+  height: 10vw;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; 
+  list-style-type: none; 
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: center; 
+}
